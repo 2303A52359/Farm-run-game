@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7435b583d957114689a39e62c7a1f6f, type: 3}
+  m_Name: ObstacleData
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleData
+  threeLaneObstacles:
+  - {fileID: 1659386878089881805, guid: ba5642b03e2d8ac4f9f3bec0e84b7a56, type: 3}
+  - {fileID: 461215174213694294, guid: 85f1398379f44ac499f45cf4e5749b59, type: 3}
+  - {fileID: 7059930005916782291, guid: 5715820d68ed0504b81f2ee00130796d, type: 3}
+  - {fileID: 7307084566709273396, guid: 7d8460ae683f99343a944cb1dc3d4d8d, type: 3}
+  - {fileID: 3791287736730252130, guid: 034d87d62e0843e418967e7d61aec394, type: 3}
+  - {fileID: 6558840349337998021, guid: 2143dd31279205a40b98138a069e9280, type: 3}
+  - {fileID: 3764717547083674869, guid: db5c7a019748110428527977bebeb17d, type: 3}
+  - {fileID: 8096036003616930231, guid: ac52ed62891317f42a0d8b3f0ef93be2, type: 3}
+  - {fileID: 7426577467674042563, guid: 605694ec00ed1fa4c923cb9160018151, type: 3}
+  - {fileID: 3848691203817987847, guid: f9a6f81ff1d0c304b8ec0120a79f726b, type: 3}
+  - {fileID: 1817792687738563625, guid: 12fd8d318381b84488177956dd393780, type: 3}
+  - {fileID: 8374983690904993442, guid: b1f5b0c66eca9e843a1c41161e77b756, type: 3}
+  - {fileID: 461215174213694294, guid: 363a1f22235b8a74e856db235c272eed, type: 3}
+  - {fileID: 461215174213694294, guid: 25ef77ba97bc50d49a63155ad545e0f0, type: 3}
+  - {fileID: 461215174213694294, guid: 93bb7abed18d62d4b94f53dc26391b60, type: 3}
+  - {fileID: 461215174213694294, guid: 578df163d95deed4ba43253a1fd0643e, type: 3}
+  twoLaneObstacles:
+  - {fileID: 838080895729710413, guid: fb9e7a087dda98e469f8db54f6c8b698, type: 3}
+  coinPrefab: {fileID: 6818933998854548729, guid: 9297ed65108427243ab0d183175f7728, type: 3}
+  initialSpeed: 30
+  speedIncreaseRate: 1
+  maxSpeed: 500
+  emptyLaneChance: 0.3
